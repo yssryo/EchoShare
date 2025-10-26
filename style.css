@@ -56,3 +56,34 @@ body {
 .nav-link a:hover {
     color: var(--effect);
 }
+
+.imageStack {
+    position: relative;
+    height: 50vh;
+    margin: 100px 0 0 40px;
+}
+
+.banner-song {
+    max-width: 30%;
+    max-height: 100%;
+    position: absolute;
+    left: 10vh;
+    z-index: 1;
+}
+
+.banner-song1 {
+    position: relative;
+    z-index: 2;
+    max-width: 30%;
+    max-height: 100%;
+    justify-content: right;
+    left: 23vh;
+}
+
+.banner-song2 {
+    position: relative;
+    z-index: -1;
+    width: 30%;
+    max-height: 100%;
+    right: 52vh;
+}
