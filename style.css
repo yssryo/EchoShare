@@ -14,7 +14,7 @@
 .title {
     justify-self: start;
     font-family: 'Gohufont';
-    margin: 30px 0 0 20px;
+    margin-right: 20px;
     display: flex;
     border: solid red 1px;
     width: max-content;
