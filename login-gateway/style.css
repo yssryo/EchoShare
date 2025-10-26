@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Gohufont";
+    src: url("./assets/font/GohuFont11NerdFont-Regular.ttf") format("truetype");
+}
+:root {
+    --primary-color: #fff5e1;
+    --secondary-color: #6a5acd;
+    --effect: #228b22;
+    --border: #e0e0e0;
+    --button-color: #ff6f61;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-color);
+    height: 85px;
+    height: 85px;
+}
+
+.title {
+    justify-self: start;
+    font-family: "Gohufont";
+    font-size: 24px;
+    margin: 30px 0 0 30px;
+    display: flex;
+    width: max-content;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    margin: 30px 20px 0 0;
+    list-style: none;
+}
+
+.nav-link a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: var(--primary-color);
+    font-size: 20px;
+}
+
+.nav-link a:hover {
+    color: var(--effect);
+}
