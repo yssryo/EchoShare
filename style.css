@@ -57,15 +57,27 @@ body {
     color: var(--effect);
 }
 
+.main-content {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    align-items: center;
+}
+
 .imageStack {
     position: relative;
     height: 50vh;
     margin: 100px 0 0 40px;
+    flex: 2;
+}
+
+.welcome-section {
+    margin-right: 4999vh;
 }
 
 .banner-song {
     max-width: 30%;
-    max-height: 100%;
+    max-height: 71%;
     position: absolute;
     left: 10vh;
     z-index: 1;
@@ -75,15 +87,23 @@ body {
     position: relative;
     z-index: 2;
     max-width: 30%;
-    max-height: 100%;
+    max-height: 71%;
     justify-content: right;
-    left: 23vh;
+    left: 19vh;
 }
 
 .banner-song2 {
     position: relative;
     z-index: -1;
-    width: 30%;
-    max-height: 100%;
-    right: 52vh;
+    width: 25%;
+    max-height: auto;
+    right: 35vh;
+}
+
+.banner-song3 {
+    position: relative;
+    z-index: 3;
+    width: auto;
+    max-height: 71%;
+    right: 35vh;
 }
